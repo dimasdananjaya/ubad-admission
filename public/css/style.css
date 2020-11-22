@@ -1,0 +1,335 @@
+
+body,
+html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: "Varela Round", sans-serif !important;
+    background-color: #fff !important;
+ 
+}
+
+body{
+    padding-top: 68px !important;
+}
+
+.container {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/****navbar v.2 *****/
+.navbar-header.col {
+    padding: 0 !important;
+}
+
+.navbar {
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.nav-link img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin: -8px 0;
+    float: left;
+    margin-right: 10px;
+}
+.navbar .navbar-brand {
+    color: #049a49;
+    padding-left: 0;
+    font-size: 20px;
+}
+.navbar .navbar-brand b {
+    font-weight: bold;
+    color: #fff;
+}
+.navbar ul.nav li a:hover,
+.navbar ul.nav li a:focus {
+    color: #fff !important;
+    background-color: #157f94; /**hover and click **/
+}
+.navbar ul.nav li.active a,
+.navbar ul.nav li.active a:hover,
+.navbar ul.nav li.active a:focus {
+    color: #157f94 !important;
+    background: transparent !important;
+}
+
+.navbar .nav-item i {
+    font-size: 18px;
+}
+.navbar .dropdown-item i {
+    font-size: 16px;
+    min-width: 22px;
+}
+.navbar .nav-item.open > a {
+    background: none !important;
+}
+.navbar .dropdown-menu {
+    border-radius: 1px;
+    border-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.navbar .dropdown-menu li a {
+    color: #157f94;
+    padding: 8px 20px;
+    line-height: normal;
+}
+.navbar .navbar-form {
+    margin-right: 0;
+    margin-left: 0;
+    border: 0;
+}
+
+.navbar-logo {
+    width: 55px;
+    height: 40px;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar {
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #fff !important;
+}
+
+.navbar-img {
+    widows: 30px !important;
+    height: 30px !important;
+}
+
+nav .navbar-nav li a {
+    color: #157f94 !important;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: #fff;
+}
+
+.navbar-nav > li > .dropdown-menu a:hover {
+    background-color: #fff;
+    color: black !important;
+}
+
+/***********************************************************************************index page *********************************/
+
+header h1,
+header p {
+    color: #fff;
+}
+
+
+/******* Contact Us ******/
+#contact-us{
+    margin-top: -1%;
+    margin-bottom: -1%;
+    background-color: #035aa6;
+
+}
+
+#contact-us p{
+    color: #ffffff;
+    text-align: center;
+}
+
+#contact-us ul{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+#contact-us h2{
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+#contact-us{
+    padding: 20px 20px 20px 20px;
+    
+}
+
+/******* contact Us ******/
+
+/******* QA ******/
+#qa .faq-title{
+    margin-top: 1.7em;
+    text-align: center;
+    color: #0e9aa7;
+}
+
+#qa .card{
+    min-height: 15rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 12px;
+    text-align: justify;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.73);
+}
+
+#qa .qa-icon{
+    width: 44px;
+    height: 44px;
+    float: left;
+    margin-right: 7px;
+}
+
+#qa .qa-question{
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+/******* end QA******/
+
+
+/**** Mahasiswa baru ****/
+#mahasiswa-baru .maba-header{
+    color: #fff;
+    background-color: #0e9aa7;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+#mahasiswa-baru .hero-image{
+    width: 30em;
+    height: 30em;
+    
+}
+
+#mahasiswa-baru .card-img-top {
+    width: 15em;
+    height: 12em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    object-fit: contain;
+}
+
+#mahasiswa-baru .card-text {
+    text-align: justify;
+}
+
+
+
+#mahasiswa-baru .card {
+    box-shadow: 5px 5px 0px 0px #b3d9ff;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#mahasiswa-baru .card-title {
+text-align: center;
+}
+
+#mahasiswa-baru .mahasiswa-baru-question{
+    background-color: #00909e;
+    color:#fff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 1em;
+}
+
+#mahasiswa-baru ul{
+    list-style-type: none;
+}
+
+#mahasiswa-baru li{
+    text-align: center;
+}
+
+/**********end mahasiswa baru *************/
+
+/*****merdeka belajar*****/
+#merdeka-belajar img{
+    width: 5em;
+    height: 5em;
+}
+
+/**********/
+
+
+
+/**** Mahasiswa baru ****/
+
+/**** Form Pendaftaran ****/
+#form-pendaftaran h2,h3{
+    font-size: 1.5rem;
+}
+
+
+/**** end Form Pendaftaran ****/
+
+/**** Validated ****/
+#validated {
+    margin-top: 20px;
+}
+
+#validated h2{
+    color: #0e9aa7;;
+}
+
+/**** end validated ****/
+
+
+/****************************************** admin area *****************************/
+
+/**===================================admin-page************************/
+#admin-page .card{
+    padding: 20px 20px 20px 20px;
+    margin-top: 15px;
+    box-shadow: 2px 2px #c6e0f5;
+}
+
+#admin-page .card-img-top{
+    height: 10rem;
+    width: 10rem;
+}
+
+#admin-page .card-text, .card-title{
+    text-align: center;
+}
+
+/**===================================end admin-page************************/
+
+/***************** daftar-pendaftar *********/
+#daftar-pendaftar .container{
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+#daftar-pendaftar h3{
+    font-size: 1.6em;
+}
+
+#daftar-pendaftar .tombol-back{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#daftar-pendaftar .card{
+    padding: 2em 2em 2em 2em;
+    box-shadow: 5px 5px 0px 0px #b3d9ff;
+}
+/****************end daftar-pendaftar*************/
+
+/***************** faq *********/
+#daftarfaq .card{
+    padding: 2em 2em 2em 2em;
+    margin-bottom: 2em;
+}
+
+/***************** end faq *********/
