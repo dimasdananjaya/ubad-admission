@@ -245,6 +245,7 @@ text-align: center;
 
 #mahasiswa-baru ul{
     list-style-type: none;
+    text-decoration: none;
 }
 
 #mahasiswa-baru li{
@@ -255,8 +256,22 @@ text-align: center;
 
 /*****merdeka belajar*****/
 #merdeka-belajar img{
-    width: 5em;
-    height: 5em;
+    width: 7em;
+    height: 7em;
+}
+
+#merdeka-belajar .card-header{
+    background-color: #f4f4f2;
+}
+
+#merdeka-belajar .card{
+    min-height: 23em;
+}
+
+#merdeka-belajar .btn-berminat{
+    width: 23em; 
+    background-color:#1f6f8b; 
+    border-radius:1em 1em 1em 1em;
 }
 
 /**********/
@@ -268,6 +283,20 @@ text-align: center;
 /**** Form Pendaftaran ****/
 #form-pendaftaran h2,h3{
     font-size: 1.5rem;
+}
+
+#form-pendaftaran{
+    background-color: #1f6f8b;
+}
+
+#form-pendaftaran .white-text{
+    color: #ffffff;
+}
+
+#form-pendaftaran img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

@@ -3,7 +3,8 @@
 @section('content')
 <section id="mahasiswa-baru">
     <div data-aos="fade-left" class="col-lg-12 maba-header">
-        <h2 data-aos="fade-left" class="text-center"><b>Pendaftaran Mahasiswa Baru Dibuka !</b></h2>
+        <h1 data-aos="fade-left" class="text-center"><b>Pendaftaran Mahasiswa Baru Dibuka !</b></h1>
+        <h2 data-aos="fade-left" class="text-center"><b>GELOMBANG EARLY BIRD 2020/2021</b></h2>
         <hr>
         <p style="text-align:justify" class="text-center card-text" data-aos="fade-left" class="why-dosen lead">
             Daftarkan dirimu sekarang untuk bergabung dengan Universitas Bali Dwipa,
@@ -14,48 +15,78 @@
     </div>
 
     <div id="merdeka-belajar">
-        <div class="container-fluid">
-            <h3 class="text-center mb-3 mt-4"><b>Kampus Merdeka, Merdeka Belajar !</b></h3>
-            <p class="text-center mb-5">Dalam mendukung program Merdeka Belajar oleh Kementerian Pendidikan dan Kebudayaan Republik Indonesia dan mensupport 
+        <div class="container">
+            <h3 class="text-center mb-3 mt-5"><b>Kampus Merdeka, Merdeka Belajar !</b></h3>
+            <p class="text-center mb-3">Dalam mendukung program Merdeka Belajar oleh Kementerian Pendidikan dan Kebudayaan Republik Indonesia dan mensupport 
                 calon mahasiswa baru <br> dalam masa Pandemi COVID-19 ini Universitas Bali Dwipa
                 memberikan <b>5 Kebebasan</b> bagi Calon Mahasiswa Baru diantaranya : </p>
             <div class="row">
                 <div class="col-lg-4 mt-5">
-                    <img class="mx-auto d-block" src="/resources/logo/bebas-uang-pendaftaran.svg">
-                    <h5 class="text-center mt-2"><b>Bebas Uang Pendaftaran</b></h5>
-                    <p class="text-center">Pendaftaran Online Gratis ! <br> Anda dapat langsung mendaftar tanpa membayar </p>
+                    <div class="card">
+                        <div class="card-header">
+                            <img class="mx-auto d-block" src="/resources/logo/bebas-uang-pendaftaran.svg">
+                            <h5 class="text-center mt-2"><b>Bebas Uang Pendaftaran</b></h5>
+                        </div><!--card-header-->
+                        <div class="card-body">
+                            <p class="text-center">Pendaftaran Online Gratis ! <br> Anda dapat langsung mendaftar tanpa membayar </p>
+                        </div><!--card-body-->
+                    </div><!--card-->
                 </div><!--col-lg-4-->
 
                 <div class="col-lg-4 mt-5">
-                    <img class="mx-auto d-block" src="/resources/logo/bebas-waktu-pendaftaran.svg">
-                    <h5 class="text-center mt-2"><b>Bebas Waktu Pendaftaran</b></h5>
-                    <p class="text-center">Pendaftaran Online Dimanapun Kapanpun <br> Anda dapat langsung mendaftar dimanapun dan kapanpun secara online </p>
+                    <div class="card">
+                        <div class="card-header">
+                            <img class="mx-auto d-block" src="/resources/logo/bebas-waktu-pendaftaran.svg">
+                            <h5 class="text-center mt-2"><b>Bebas Waktu Pendaftaran</b></h5>
+                        </div><!--card-header-->
+                        <div class="card-body">
+                            <p class="text-center">Pendaftaran Online Dimanapun Kapanpun <br> Anda dapat langsung mendaftar dimanapun dan kapanpun secara online </p>
+                        </div><!--card-body-->
+                    </div><!--card-->
                 </div><!--col-lg-4-->
 
                 <div class="col-lg-4 mt-5">
-                    <img class="mx-auto d-block" src="/resources/logo/bebas-waktu-kuliah.svg">
-                    <h5 class="text-center mt-2"><b>Bebas Waktu Kuliah</b></h5>
-                    <p class="text-center">Perkuliahan Dapat Dilakukan Online <br> Anda dapat mengikuti kuliah secara Online kami memiliki sistem E-Learning yang akan
-                    membantu kalian dalam melakukan perkuliahan dimanapun dan kapanpun</p>
+                    <div class="card">
+                        <div class="card-header">
+                            <img class="mx-auto d-block" src="/resources/logo/bebas-waktu-kuliah.svg">
+                            <h5 class="text-center mt-2"><b>Bebas Waktu Kuliah</b></h5>
+                        </div><!--card-header-->
+                        <div class="card-body">
+                            <p class="text-center">Perkuliahan Dapat Dilakukan Online Anda dapat mengikuti kuliah secara Online kami memiliki sistem E-Learning yang akan
+                                membantu kalian dalam melakukan perkuliahan dimanapun dan kapanpun</p>
+                        </div><!--card-body-->
+                    </div><!--card-->
                 </div><!--col-lg-4-->
 
                 <div class="col-lg-6 mt-5">
-                    <img class="mx-auto d-block" src="/resources/logo/bebas-waktu-bayar-kuliah.svg">
-                    <h5 class="text-center mt-2"><b>Bebas Waktu Bayar Kuliah</b></h5>
-                    <p class="text-center">Punya Kendala Dalam Pembayaran? <br> Pembayaran Uang Kuliah dapat dibayar kapanpun <br>dan dicicil hingga sebelum Semester berakhir </p>
+                    <div class="card">
+                        <div class="card-header">
+                            <img class="mx-auto d-block" src="/resources/logo/bebas-waktu-bayar-kuliah.svg">
+                            <h5 class="text-center mt-2"><b>Bebas Waktu Bayar Kuliah</b></h5>
+                        </div><!--card-header-->
+                        <div class="card-body">
+                            <p class="text-center">Punya Kendala Dalam Pembayaran? Pembayaran Uang Kuliah dapat dibayar kapanpun dan dicicil hingga sebelum Semester berakhir </p>
+                        </div><!--card-body-->
+                    </div><!--card-->
                 </div><!--col-lg-4-->
 
                 <div class="col-lg-6 mt-5">
-                    <img class="mx-auto d-block" src="/resources/logo/bebas-kuliah-3-semester.svg">
-                    <h5 class="text-center mt-2"><b>Bebas Kuliah 3 Semester Diluar Prodi</b></h5>
-                    <p class="text-center">Perkuliahan Merdeka Belajar <br> Mahasiswa berhak mengambil 3 semester diluar program studinya sesuai dengan prgoram merdeka balajar</p>
+                    <div class="card">
+                        <div class="card-header">
+                            <img class="mx-auto d-block" src="/resources/logo/bebas-kuliah-3-semester.svg">
+                            <h5 class="text-center mt-2"><b>Bebas Kuliah 3 Semester Diluar Prodi</b></h5>
+                        </div><!--card-header-->
+                        <div class="card-body">
+                            <p class="text-center">Perkuliahan Merdeka Belajar <br> Mahasiswa berhak mengambil 3 semester diluar program studinya sesuai dengan prgoram merdeka balajar</p>
+                        </div><!--card-body-->
+                    </div><!--card-->
                 </div><!--col-lg-4-->
 
                 <div class="col-lg-12">
-                    <a href="/form-pendaftaran" class="btn btn-primary btn-md text-center mx-auto d-block mt-4" style="width: 23em; background-color:#40a8c4; border-radius:1em 1em 1em 1em;">Berminat Bergabung? <br> Klik Disini Untuk Daftar Online</a>
+                    <a href="/form-pendaftaran" class="btn btn-berminat btn-primary btn-md btn-block text-center mx-auto d-block mt-4">Berminat Bergabung? <br> Klik Disini Untuk Daftar Online</a>
                 </div><!--div class-->
             </div><!--row-->
-        </div><!--container-fluid-->
+        </div><!--container-->
     </div><!--merdeka belajar-->
 
     <div class="container">
@@ -153,6 +184,101 @@
             
         </div><!--row-->
     </div><!--container-->
+
+    <section id="form-pendaftaran">
+        <div class="container">
+            <div class="row">
+                <div data-aos="fade-left" class="col-lg-6 pt-5">
+                    <h2 data-aos="fade-left" class="text-center white-text"><b>Pendaftaran Mahasiswa Baru</b></h2>
+                    <hr>
+                    <p class="text-center white-text" data-aos="fade-left" class="why-dosen lead">
+                        Silahkan mengisi formulir berikut ini untuk melakukan pendaftaran kolom diisi selengkap mungkin dan merupakan data yang sebenarnya.
+                    <p>
+                    <img class="mx-auto" src="/resources/logo/pendaftaran-form.svg">
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3><b>Formulir Pendaftaran</b></h3>
+                            
+                            <hr>
+                            <form action="#" method="POST" enctype="multipart/form-data">
+                                {{ csrf_field() }}
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="nama">Nama Lengkap</label>
+                                            <input type="nama" class="form-control" name="nama" id="nama"
+                                                placeholder="" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="no_hp">No Handphone</label>
+                                            <input type="text" class="form-control" name="no_hp" id="no_hp"
+                                            placeholder="" required>
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="no_whatsapp">No Whatsapp</label>
+                                            <input type="text" class="form-control" name="no_whatsapp" id="no_whatsapp"
+                                            placeholder="" required>
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <input type="email" class="form-control" name="email" id="email"
+                                            placeholder="" required>
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="prodi">Program Studi Pilihan</label>
+                                            <select name="prodi" class="form-group form-control">
+                                                <option value="Teknologi Pangan" class="form-control">Teknologi Pangan</option>
+                                                <option value="Gizi" class="form-control">Gizi</option>
+                                                <option value="Farmasi" class="form-control">Farmasi</option>
+                                                <option value="Psikologi" class="form-control">Psikologi</option>
+                                                <option value="Teknik Biomedis" class="form-control">Teknik Biomedis</option>
+                                                <option value="Hukum" class="form-control">Hukum</option>
+                                                <option value="Akuntansi" class="form-control">Akuntansi</option>
+                                                <option value="Bahasa Inggris" class="form-control">Bahasa Inggris</option>
+                                                <option value="Hubungan Masyarakat" class="form-control">Hubungan Masyarakat</option>
+                                                <option value="Sistem Informasi" class="form-control">Sistem Informasi</option>
+                                            </select>
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-lg-12" style="visibility: hidden;">
+                                        <div class="form-group">
+                                            <label for="kelas">Kelas</label>
+                                            <select name="kelas" class="form-group form-control">
+                                                <option value="Reguler" class="form-control" selected>Reguler</option>
+                                            </select>
+                                        </div>
+                                    </div><!--end col-->
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="kelas">Kode Referral</label>
+                                            <p><small>*diisi jika memiliki kode Referral dari marketing</small></p>
+                                            <input type="text" class="form-control" name="referral" id="referral"
+                                            placeholder="xxxxxx">
+                                        </div>
+                                    </div><!--end col-->
+
+                                </div><!--end row-->
+                                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                            </form>
+                        </div><!--card-body-->
+                    </div><!--card-->
+                </div><!--col-12-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+
     <div class="mahasiswa-baru-question">
         <div data-aos="fade-right">
             <h2 class="text-center">Ada Pertanyaan?</h2>
