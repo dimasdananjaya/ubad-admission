@@ -103,11 +103,6 @@
 
         @yield('content')
         @include('sweetalert::alert')
-        <div class="row">
-            <div class="col-lg-12">
-                <hr>
-            </div>
-        </div>
         <footer class="fdb-block footer-large">
         <div class="container">
             <div class="row text-center">
